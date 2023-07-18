@@ -1,0 +1,215 @@
+@media all and (min-width:1400px) {}
+
+@media all and (max-width:1200px) {
+    .marquee-area .marquee-heading .notice {
+        -ms-flex-preferred-size: 20%;
+            flex-basis: 20%;
+    }
+
+    /* .about-area .collage .img img {
+        height: 11rem;
+    } */
+
+}
+
+@media all and (min-width:992px) {
+    .menu-area .main-header .menu {
+        display: block !important;
+    }
+}
+
+@media all and (max-width:991px) {
+    .menu-area .main-header {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: unset !important;
+            -ms-flex-align: unset !important;
+                    -ms-grid-row-align: unset !important;
+                align-items: unset !important;
+    }
+
+    .header-area .main-header .logo-area .logo .bars {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        border: 0.2rem solid var(--colorGray);
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .header-area .main-header .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: var(--colorGray);
+        width: 100%;
+        z-index: 9999;
+        display: none;
+    }
+
+    .header-area .main-header .menu ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .header-area .main-header .menu ul li {
+        padding: 1.5rem 0;
+    }
+
+    .marquee-area .marquee-heading .notice {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+    }
+
+    .banner-area .collage-content h1 {
+        font-size: 3rem;
+    }
+
+    .banner-area .change-content .change {
+        font-size: 2.5rem;
+    }
+
+    .first {
+        -webkit-box-ordinal-group: -1;
+            -ms-flex-order: -2;
+                order: -2;
+    }
+
+    /* .about-area .collage .img img {
+        width: 23rem;
+        height: 12rem;
+    } */
+}
+
+@media all and (max-width:767px) {
+    /* body {
+        overflow-x: hidden;
+    } */
+
+    .header-area .top-header {
+        display: none;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-area .collage-content {
+        left: 0%;
+        right: 0;
+        margin: 0;
+    }
+
+    .banner-area .change-content {
+        left: 75%;
+        width: 100%;
+    }
+
+    #myCarousel .owl-nav {
+        display: none;
+    }
+
+    .marquee-area .marquee-heading .notice h3 {
+        font-size: 1.3rem;
+    }
+
+    .notice-area .nitice-bord .notice ul li a {
+        font-size: 1.6rem;
+    }
+
+    .notice-area .information .sub-box h2 {
+        font-size: 2.5rem;
+    }
+
+    .notice-area .information .info-content h2 {
+        font-size: 2rem;
+    }
+
+    .notice-area .information .info-content .histoty {
+        font-size: 1.6rem;
+    }
+
+    .section-heading .fs-1 {
+        font-size: 2.5rem !important;
+    }
+
+    .about-area .about-heading h2 {
+        font-size: 3rem;
+    }
+
+    .about-area .collage .img img {
+        height: 20rem;
+    }
+
+
+    /* about page responsive  */
+    /* about page responsive  */
+    .about-title-heading .fs-1 {
+        font-size: 2.5rem !important;
+    }
+
+    .table tbody tr td {
+        font-size: 1.6rem;
+    }
+
+    /* about page responsive  */
+    /* about page responsive  */
+}
+
+@media all and (max-width:575px) {
+    .container {
+        width: 95%;
+    }
+
+    .banner-area .change-content {
+        left: 60%;
+    }
+
+    .banner-area .discription p {
+        font-size: 1.4rem;
+    }
+
+    .marquee-area .marquee-heading .notice {
+        -ms-flex-preferred-size: 30%;
+            flex-basis: 30%;
+    }
+
+    /* about page responsive  */
+    /* about page responsive  */
+    .about-title-heading .fs-1 {
+        font-size: 2rem !important;
+    }
+
+    /* about page responsive  */
+    /* about page responsive  */
+}
+
+@media all and (max-width:450px) {
+    .banner-area .change-content {
+        left: 55%;
+    }
+
+    .banner-area .change-content .change {
+        font-size: 2rem;
+    }
+
+    /* .banner-area .discription p {
+        text-align: justify !important;
+    } */
+
+    .footer-area .contact-footer ul li a {
+        font-size: 1.6rem;
+    }
+
+    .header-area .main-header .logo-area .logo img {
+        width: 23rem;
+    }
+}
